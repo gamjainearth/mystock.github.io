@@ -135,6 +135,8 @@ def _kr_period_dates(period: str):
         start = end - timedelta(days=90)
     elif period == "1y":
         start = end - timedelta(days=365)
+    elif period == "2y":
+        start = end - timedelta(days=730)
     else:
         start = end - timedelta(days=30)
     return start.strftime("%Y%m%d"), end.strftime("%Y%m%d")
@@ -191,11 +193,25 @@ def fetch_kr_info(ticker: str) -> dict:
 # 통합 인터페이스
 # ──────────────────────────────────────
 
+# 이동평균선(120일)을 위한 확장 기간 매핑
+_EXTENDED_PERIOD = {
+    "1mo": "1y",
+    "3mo": "1y",
+    "1y": "2y",
+}
+
+
 def fetch_price(ticker: str, market: str, period: str = "1mo") -> pd.DataFrame:
     """시장 구분에 따라 적절한 데이터 소스 호출"""
     if market == "KR":
         return fetch_kr_price(ticker, period)
     return fetch_us_price(ticker, period)
+
+
+def fetch_price_for_chart(ticker: str, market: str, period: str = "1mo") -> pd.DataFrame:
+    """이동평균선 계산을 위해 확장된 기간의 데이터를 가져옴"""
+    extended = _EXTENDED_PERIOD.get(period, period)
+    return fetch_price(ticker, market, extended)
 
 
 def fetch_info(ticker: str, market: str) -> dict:

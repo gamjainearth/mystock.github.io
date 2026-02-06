@@ -10,8 +10,22 @@
         {"ticker": "TSM", "name_ko": "TSMC", "name_en": "TSMC", "market": "US", "description": "세계 최대 파운드리 기업"},
         {"ticker": "AMD", "name_ko": "AMD", "name_en": "AMD", "market": "US", "description": "CPU/GPU 설계 기업"},
         {"ticker": "INTC", "name_ko": "인텔", "name_en": "Intel", "market": "US", "description": "CPU 제조 및 파운드리"},
+        {"ticker": "AVGO", "name_ko": "브로드컴", "name_en": "Broadcom", "market": "US", "description": "네트워크·커스텀 AI칩 반도체"},
+        {"ticker": "QCOM", "name_ko": "퀄컴", "name_en": "Qualcomm", "market": "US", "description": "모바일 AP·통신칩 설계"},
+        {"ticker": "MU", "name_ko": "마이크론", "name_en": "Micron Technology", "market": "US", "description": "DRAM·NAND 메모리 제조"},
+        {"ticker": "MRVL", "name_ko": "마벨 테크놀로지", "name_en": "Marvell Technology", "market": "US", "description": "데이터센터·5G 반도체"},
+        {"ticker": "LRCX", "name_ko": "램리서치", "name_en": "Lam Research", "market": "US", "description": "반도체 식각장비 1위"},
+        {"ticker": "AMAT", "name_ko": "어플라이드 머티리얼즈", "name_en": "Applied Materials", "market": "US", "description": "반도체 증착·이온주입 장비"},
+        {"ticker": "KLAC", "name_ko": "KLA", "name_en": "KLA Corporation", "market": "US", "description": "반도체 검사·계측 장비"},
+        {"ticker": "ASML", "name_ko": "ASML", "name_en": "ASML Holding", "market": "US", "description": "EUV 노광장비 독점"},
+        {"ticker": "ON", "name_ko": "온세미컨덕터", "name_en": "ON Semiconductor", "market": "US", "description": "전력·이미지 센서 반도체"},
+        {"ticker": "TXN", "name_ko": "텍사스 인스트루먼트", "name_en": "Texas Instruments", "market": "US", "description": "아날로그 반도체 대표 기업"},
+        {"ticker": "ARM", "name_ko": "ARM홀딩스", "name_en": "Arm Holdings", "market": "US", "description": "모바일·AI CPU 아키텍처 설계"},
         {"ticker": "005930", "name_ko": "삼성전자", "name_en": "Samsung Electronics", "market": "KR", "description": "메모리 반도체 세계 1위"},
-        {"ticker": "000660", "name_ko": "SK하이닉스", "name_en": "SK Hynix", "market": "KR", "description": "HBM 메모리 반도체 강자"}
+        {"ticker": "000660", "name_ko": "SK하이닉스", "name_en": "SK Hynix", "market": "KR", "description": "HBM 메모리 반도체 강자"},
+        {"ticker": "042700", "name_ko": "한미반도체", "name_en": "Hanmi Semiconductor", "market": "KR", "description": "반도체 후공정 장비"},
+        {"ticker": "403870", "name_ko": "HPSP", "name_en": "HPSP", "market": "KR", "description": "고압 수소 어닐링 장비"},
+        {"ticker": "058470", "name_ko": "리노공업", "name_en": "LEENO Industrial", "market": "KR", "description": "반도체 테스트 소켓·핀"}
       ]
     },
     {
@@ -20,11 +34,25 @@
       "name_en": "Artificial Intelligence",
       "icon": "🤖",
       "stocks": [
-        {"ticker": "MSFT", "name_ko": "마이크로소프트", "name_en": "Microsoft", "market": "US", "description": "OpenAI 투자 및 Copilot AI"},
-        {"ticker": "GOOGL", "name_ko": "알파벳(구글)", "name_en": "Alphabet", "market": "US", "description": "Gemini AI 및 클라우드 AI"},
-        {"ticker": "META", "name_ko": "메타", "name_en": "Meta Platforms", "market": "US", "description": "LLaMA 오픈소스 AI"},
-        {"ticker": "PLTR", "name_ko": "팔란티어", "name_en": "Palantir", "market": "US", "description": "AI 기반 데이터 분석 플랫폼"},
-        {"ticker": "SNOW", "name_ko": "스노우플레이크", "name_en": "Snowflake", "market": "US", "description": "클라우드 데이터 플랫폼"}
+        {"ticker": "MSFT", "name_ko": "마이크로소프트", "name_en": "Microsoft", "market": "US", "description": "OpenAI 투자, Copilot·Azure AI"},
+        {"ticker": "GOOGL", "name_ko": "알파벳(구글)", "name_en": "Alphabet", "market": "US", "description": "Gemini AI, 클라우드·검색 AI"},
+        {"ticker": "META", "name_ko": "메타", "name_en": "Meta Platforms", "market": "US", "description": "LLaMA 오픈소스 AI, 소셜 AI"},
+        {"ticker": "PLTR", "name_ko": "팔란티어", "name_en": "Palantir", "market": "US", "description": "AI 기반 빅데이터 분석 플랫폼"},
+        {"ticker": "CRM", "name_ko": "세일즈포스", "name_en": "Salesforce", "market": "US", "description": "기업용 AI CRM 플랫폼"},
+        {"ticker": "SNOW", "name_ko": "스노우플레이크", "name_en": "Snowflake", "market": "US", "description": "클라우드 데이터·AI 플랫폼"},
+        {"ticker": "AI", "name_ko": "C3.ai", "name_en": "C3.ai", "market": "US", "description": "엔터프라이즈 AI 소프트웨어"},
+        {"ticker": "PATH", "name_ko": "유아이패스", "name_en": "UiPath", "market": "US", "description": "AI 기반 RPA 자동화"},
+        {"ticker": "AMZN", "name_ko": "아마존", "name_en": "Amazon", "market": "US", "description": "AWS AI·Bedrock 클라우드"},
+        {"ticker": "ORCL", "name_ko": "오라클", "name_en": "Oracle", "market": "US", "description": "클라우드 인프라·AI DB"},
+        {"ticker": "IBM", "name_ko": "IBM", "name_en": "IBM", "market": "US", "description": "왓슨X 엔터프라이즈 AI"},
+        {"ticker": "ADBE", "name_ko": "어도비", "name_en": "Adobe", "market": "US", "description": "생성형 AI Firefly·크리에이티브"},
+        {"ticker": "NOW", "name_ko": "서비스나우", "name_en": "ServiceNow", "market": "US", "description": "AI 기반 IT 워크플로우 자동화"},
+        {"ticker": "MDB", "name_ko": "몽고DB", "name_en": "MongoDB", "market": "US", "description": "AI 앱용 NoSQL 데이터베이스"},
+        {"ticker": "DDOG", "name_ko": "데이터독", "name_en": "Datadog", "market": "US", "description": "AI 옵저버빌리티·모니터링"},
+        {"ticker": "035420", "name_ko": "NAVER", "name_en": "NAVER", "market": "KR", "description": "하이퍼클로바X AI, 검색·커머스"},
+        {"ticker": "035720", "name_ko": "카카오", "name_en": "Kakao", "market": "KR", "description": "카나나 AI, 메신저·플랫폼"},
+        {"ticker": "078930", "name_ko": "GS", "name_en": "GS", "market": "KR", "description": "AI 에너지 플랫폼 투자"},
+        {"ticker": "018260", "name_ko": "삼성에스디에스", "name_en": "Samsung SDS", "market": "KR", "description": "패브릭스 AI·IT서비스"}
       ]
     },
     {
@@ -34,10 +62,23 @@
       "icon": "⚡",
       "stocks": [
         {"ticker": "ENPH", "name_ko": "엔페이즈 에너지", "name_en": "Enphase Energy", "market": "US", "description": "태양광 마이크로인버터"},
-        {"ticker": "FSLR", "name_ko": "퍼스트솔라", "name_en": "First Solar", "market": "US", "description": "태양광 패널 제조"},
-        {"ticker": "NEE", "name_ko": "넥스트에라 에너지", "name_en": "NextEra Energy", "market": "US", "description": "미국 최대 신재생에너지 기업"},
-        {"ticker": "XOM", "name_ko": "엑슨모빌", "name_en": "ExxonMobil", "market": "US", "description": "글로벌 에너지 메이저"},
-        {"ticker": "034730", "name_ko": "SK", "name_en": "SK Inc", "market": "KR", "description": "에너지/배터리 지주회사"}
+        {"ticker": "FSLR", "name_ko": "퍼스트솔라", "name_en": "First Solar", "market": "US", "description": "박막 태양광 패널 제조"},
+        {"ticker": "NEE", "name_ko": "넥스트에라 에너지", "name_en": "NextEra Energy", "market": "US", "description": "미국 최대 신재생에너지"},
+        {"ticker": "XOM", "name_ko": "엑슨모빌", "name_en": "ExxonMobil", "market": "US", "description": "글로벌 에너지 슈퍼메이저"},
+        {"ticker": "CVX", "name_ko": "셰브론", "name_en": "Chevron", "market": "US", "description": "종합 에너지·석유 기업"},
+        {"ticker": "COP", "name_ko": "코노코필립스", "name_en": "ConocoPhillips", "market": "US", "description": "독립 E&P 최대 기업"},
+        {"ticker": "SLB", "name_ko": "슐럼버거", "name_en": "SLB (Schlumberger)", "market": "US", "description": "유전 서비스·기술 1위"},
+        {"ticker": "OXY", "name_ko": "옥시덴탈 페트롤리엄", "name_en": "Occidental Petroleum", "market": "US", "description": "석유·탄소포집 기업"},
+        {"ticker": "LNG", "name_ko": "셰니에르 에너지", "name_en": "Cheniere Energy", "market": "US", "description": "미국 LNG 수출 1위"},
+        {"ticker": "SEDG", "name_ko": "솔라엣지", "name_en": "SolarEdge Technologies", "market": "US", "description": "태양광 인버터·최적화"},
+        {"ticker": "BE", "name_ko": "블룸에너지", "name_en": "Bloom Energy", "market": "US", "description": "고체산화물 연료전지"},
+        {"ticker": "PLUG", "name_ko": "플러그파워", "name_en": "Plug Power", "market": "US", "description": "수소 연료전지 솔루션"},
+        {"ticker": "VST", "name_ko": "비스트라", "name_en": "Vistra", "market": "US", "description": "전력 발전·소매 에너지"},
+        {"ticker": "CEG", "name_ko": "컨스텔레이션 에너지", "name_en": "Constellation Energy", "market": "US", "description": "미국 최대 원전·청정에너지"},
+        {"ticker": "034730", "name_ko": "SK", "name_en": "SK Inc", "market": "KR", "description": "에너지·배터리 지주회사"},
+        {"ticker": "096770", "name_ko": "SK이노베이션", "name_en": "SK Innovation", "market": "KR", "description": "정유·배터리·E&P"},
+        {"ticker": "009830", "name_ko": "한화솔루션", "name_en": "Hanwha Solutions", "market": "KR", "description": "태양광·수소·화학"},
+        {"ticker": "336260", "name_ko": "두산퓨얼셀", "name_en": "Doosan Fuel Cell", "market": "KR", "description": "수소 연료전지 발전"}
       ]
     },
     {
@@ -46,11 +87,23 @@
       "name_en": "Robotics & Automation",
       "icon": "🦾",
       "stocks": [
-        {"ticker": "ISRG", "name_ko": "인튜이티브 서지컬", "name_en": "Intuitive Surgical", "market": "US", "description": "다빈치 수술로봇"},
-        {"ticker": "ROK", "name_ko": "록웰 오토메이션", "name_en": "Rockwell Automation", "market": "US", "description": "산업 자동화 솔루션"},
-        {"ticker": "TER", "name_ko": "테라다인", "name_en": "Teradyne", "market": "US", "description": "반도체 테스트 및 협동로봇"},
-        {"ticker": "ABBNY", "name_ko": "ABB", "name_en": "ABB Ltd", "market": "US", "description": "산업용 로봇 및 자동화"},
-        {"ticker": "454910", "name_ko": "레인보우로보틱스", "name_en": "Rainbow Robotics", "market": "KR", "description": "이족보행 로봇 개발 기업"}
+        {"ticker": "ISRG", "name_ko": "인튜이티브 서지컬", "name_en": "Intuitive Surgical", "market": "US", "description": "다빈치 수술로봇 선두"},
+        {"ticker": "ROK", "name_ko": "록웰 오토메이션", "name_en": "Rockwell Automation", "market": "US", "description": "산업 자동화 소프트·하드웨어"},
+        {"ticker": "TER", "name_ko": "테라다인", "name_en": "Teradyne", "market": "US", "description": "반도체 테스트·협동로봇(UR)"},
+        {"ticker": "ABBNY", "name_ko": "ABB", "name_en": "ABB Ltd", "market": "US", "description": "산업용 로봇·전력 자동화"},
+        {"ticker": "FANUY", "name_ko": "화낙", "name_en": "FANUC", "market": "US", "description": "일본 산업용 로봇 1위"},
+        {"ticker": "IRBT", "name_ko": "아이로봇", "name_en": "iRobot", "market": "US", "description": "가정용 로봇청소기 룸바"},
+        {"ticker": "EMR", "name_ko": "에머슨 일렉트릭", "name_en": "Emerson Electric", "market": "US", "description": "산업 자동화·제어 시스템"},
+        {"ticker": "HON", "name_ko": "허니웰", "name_en": "Honeywell", "market": "US", "description": "산업자동화·항공·빌딩기술"},
+        {"ticker": "CGNX", "name_ko": "코그넥스", "name_en": "Cognex", "market": "US", "description": "머신비전·산업용 이미지센서"},
+        {"ticker": "ZBRA", "name_ko": "제브라 테크놀로지", "name_en": "Zebra Technologies", "market": "US", "description": "물류자동화·바코드·RFID"},
+        {"ticker": "NVDA", "name_ko": "엔비디아", "name_en": "NVIDIA", "market": "US", "description": "자율주행·로봇 AI 플랫폼"},
+        {"ticker": "DE", "name_ko": "디어앤컴퍼니", "name_en": "Deere & Company", "market": "US", "description": "농업·건설 자율주행 장비"},
+        {"ticker": "454910", "name_ko": "레인보우로보틱스", "name_en": "Rainbow Robotics", "market": "KR", "description": "이족보행·협동 로봇"},
+        {"ticker": "267260", "name_ko": "HD현대로보틱스", "name_en": "HD Hyundai Robotics", "market": "KR", "description": "산업용 로봇 제조"},
+        {"ticker": "090460", "name_ko": "비에이치", "name_en": "BH Co", "market": "KR", "description": "FPCB 자동화 장비"},
+        {"ticker": "108320", "name_ko": "LX세미콘", "name_en": "LX Semicon", "market": "KR", "description": "디스플레이 구동 IC·자동화"},
+        {"ticker": "298040", "name_ko": "효성중공업", "name_en": "Hyosung Heavy Industries", "market": "KR", "description": "전력기기·산업자동화"}
       ]
     },
     {
@@ -60,10 +113,24 @@
       "icon": "🏦",
       "stocks": [
         {"ticker": "JPM", "name_ko": "JP모건 체이스", "name_en": "JPMorgan Chase", "market": "US", "description": "미국 최대 종합 금융그룹"},
-        {"ticker": "V", "name_ko": "비자", "name_en": "Visa", "market": "US", "description": "글로벌 결제 네트워크"},
+        {"ticker": "V", "name_ko": "비자", "name_en": "Visa", "market": "US", "description": "글로벌 결제 네트워크 1위"},
+        {"ticker": "MA", "name_ko": "마스터카드", "name_en": "Mastercard", "market": "US", "description": "글로벌 결제 네트워크 2위"},
         {"ticker": "GS", "name_ko": "골드만삭스", "name_en": "Goldman Sachs", "market": "US", "description": "글로벌 투자은행"},
+        {"ticker": "BAC", "name_ko": "뱅크오브아메리카", "name_en": "Bank of America", "market": "US", "description": "미국 2위 상업은행"},
+        {"ticker": "WFC", "name_ko": "웰스파고", "name_en": "Wells Fargo", "market": "US", "description": "미국 대형 상업은행"},
+        {"ticker": "MS", "name_ko": "모건스탠리", "name_en": "Morgan Stanley", "market": "US", "description": "IB·자산관리 금융그룹"},
+        {"ticker": "BLK", "name_ko": "블랙록", "name_en": "BlackRock", "market": "US", "description": "세계 최대 자산운용사"},
+        {"ticker": "SCHW", "name_ko": "찰스슈왑", "name_en": "Charles Schwab", "market": "US", "description": "미국 대형 증권·리테일"},
+        {"ticker": "AXP", "name_ko": "아메리칸 익스프레스", "name_en": "American Express", "market": "US", "description": "프리미엄 카드·결제"},
+        {"ticker": "PYPL", "name_ko": "페이팔", "name_en": "PayPal", "market": "US", "description": "온라인 결제 플랫폼"},
+        {"ticker": "SQ", "name_ko": "블록(스퀘어)", "name_en": "Block (Square)", "market": "US", "description": "모바일 결제·핀테크"},
+        {"ticker": "C", "name_ko": "씨티그룹", "name_en": "Citigroup", "market": "US", "description": "글로벌 상업·투자은행"},
+        {"ticker": "BRK-B", "name_ko": "버크셔 해서웨이", "name_en": "Berkshire Hathaway", "market": "US", "description": "워런 버핏 투자 지주회사"},
         {"ticker": "105560", "name_ko": "KB금융", "name_en": "KB Financial Group", "market": "KR", "description": "한국 대표 금융지주"},
-        {"ticker": "055550", "name_ko": "신한지주", "name_en": "Shinhan Financial Group", "market": "KR", "description": "한국 종합 금융그룹"}
+        {"ticker": "055550", "name_ko": "신한지주", "name_en": "Shinhan Financial Group", "market": "KR", "description": "한국 종합 금융그룹"},
+        {"ticker": "086790", "name_ko": "하나금융지주", "name_en": "Hana Financial Group", "market": "KR", "description": "하나은행 지주회사"},
+        {"ticker": "316140", "name_ko": "우리금융지주", "name_en": "Woori Financial Group", "market": "KR", "description": "우리은행 금융그룹"},
+        {"ticker": "138930", "name_ko": "BNK금융지주", "name_en": "BNK Financial Group", "market": "KR", "description": "부산·경남은행 금융지주"}
       ]
     },
     {
@@ -72,11 +139,75 @@
       "name_en": "Battery & EV",
       "icon": "🔋",
       "stocks": [
-        {"ticker": "TSLA", "name_ko": "테슬라", "name_en": "Tesla", "market": "US", "description": "전기차 및 에너지 저장"},
-        {"ticker": "RIVN", "name_ko": "리비안", "name_en": "Rivian", "market": "US", "description": "전기 트럭/SUV 제조"},
+        {"ticker": "TSLA", "name_ko": "테슬라", "name_en": "Tesla", "market": "US", "description": "전기차·에너지저장·자율주행"},
+        {"ticker": "RIVN", "name_ko": "리비안", "name_en": "Rivian", "market": "US", "description": "전기 트럭·SUV 제조"},
+        {"ticker": "LCID", "name_ko": "루시드", "name_en": "Lucid Group", "market": "US", "description": "프리미엄 전기 세단"},
+        {"ticker": "NIO", "name_ko": "니오", "name_en": "NIO", "market": "US", "description": "중국 프리미엄 전기차"},
+        {"ticker": "XPEV", "name_ko": "샤오펑", "name_en": "XPeng", "market": "US", "description": "중국 스마트 전기차"},
+        {"ticker": "LI", "name_ko": "리오토", "name_en": "Li Auto", "market": "US", "description": "중국 EREV 전기차"},
+        {"ticker": "F", "name_ko": "포드", "name_en": "Ford Motor", "market": "US", "description": "전기트럭 F-150 라이트닝"},
+        {"ticker": "GM", "name_ko": "제너럴모터스", "name_en": "General Motors", "market": "US", "description": "울티움 배터리·전기차"},
+        {"ticker": "PANW", "name_ko": "팔로알토 네트웍스", "name_en": "Palo Alto Networks", "market": "US", "description": "사이버 보안(EV 인프라)"},
+        {"ticker": "ALB", "name_ko": "앨버말", "name_en": "Albemarle", "market": "US", "description": "리튬 채굴·정제 최대"},
+        {"ticker": "SQM", "name_ko": "SQM", "name_en": "Sociedad Quimica y Minera", "market": "US", "description": "칠레 리튬·화학"},
+        {"ticker": "QS", "name_ko": "퀀텀스케이프", "name_en": "QuantumScape", "market": "US", "description": "전고체 배터리 개발"},
         {"ticker": "373220", "name_ko": "LG에너지솔루션", "name_en": "LG Energy Solution", "market": "KR", "description": "글로벌 배터리 제조 2위"},
-        {"ticker": "006400", "name_ko": "삼성SDI", "name_en": "Samsung SDI", "market": "KR", "description": "배터리 셀 및 소재"},
-        {"ticker": "051910", "name_ko": "LG화학", "name_en": "LG Chem", "market": "KR", "description": "배터리 소재 및 화학"}
+        {"ticker": "006400", "name_ko": "삼성SDI", "name_en": "Samsung SDI", "market": "KR", "description": "배터리 셀·전자재료"},
+        {"ticker": "051910", "name_ko": "LG화학", "name_en": "LG Chem", "market": "KR", "description": "양극재·화학 소재"},
+        {"ticker": "247540", "name_ko": "에코프로비엠", "name_en": "EcoPro BM", "market": "KR", "description": "양극활물질 NCA·NCM"},
+        {"ticker": "086520", "name_ko": "에코프로", "name_en": "EcoPro", "market": "KR", "description": "양극재 지주회사"},
+        {"ticker": "012450", "name_ko": "한화에어로스페이스", "name_en": "Hanwha Aerospace", "market": "KR", "description": "방산·항공엔진(배터리 투자)"},
+        {"ticker": "003670", "name_ko": "포스코퓨처엠", "name_en": "POSCO Future M", "market": "KR", "description": "양극재·음극재 소재"}
+      ]
+    },
+    {
+      "id": "bio_pharma",
+      "name_ko": "바이오/제약",
+      "name_en": "Biotech & Pharma",
+      "icon": "💊",
+      "stocks": [
+        {"ticker": "LLY", "name_ko": "일라이 릴리", "name_en": "Eli Lilly", "market": "US", "description": "비만·당뇨 GLP-1 신약 강자"},
+        {"ticker": "NVO", "name_ko": "노보노디스크", "name_en": "Novo Nordisk", "market": "US", "description": "위고비·오젬픽 비만 치료제"},
+        {"ticker": "JNJ", "name_ko": "존슨앤존슨", "name_en": "Johnson & Johnson", "market": "US", "description": "제약·의료기기 종합 헬스케어"},
+        {"ticker": "PFE", "name_ko": "화이자", "name_en": "Pfizer", "market": "US", "description": "백신·항암제 대형 제약"},
+        {"ticker": "ABBV", "name_ko": "애브비", "name_en": "AbbVie", "market": "US", "description": "휴미라·면역·항암 바이오"},
+        {"ticker": "MRK", "name_ko": "머크", "name_en": "Merck & Co", "market": "US", "description": "키트루다 항암제 블록버스터"},
+        {"ticker": "AMGN", "name_ko": "암젠", "name_en": "Amgen", "market": "US", "description": "바이오시밀러·비만 치료"},
+        {"ticker": "GILD", "name_ko": "길리어드 사이언스", "name_en": "Gilead Sciences", "market": "US", "description": "항바이러스·항암 바이오"},
+        {"ticker": "BMY", "name_ko": "브리스톨마이어스", "name_en": "Bristol-Myers Squibb", "market": "US", "description": "면역항암·심혈관 제약"},
+        {"ticker": "REGN", "name_ko": "리제네론", "name_en": "Regeneron Pharmaceuticals", "market": "US", "description": "아일리아·면역 항체 치료"},
+        {"ticker": "VRTX", "name_ko": "버텍스 파마", "name_en": "Vertex Pharmaceuticals", "market": "US", "description": "유전자 치료·낭포성 섬유증"},
+        {"ticker": "TMO", "name_ko": "써모피셔", "name_en": "Thermo Fisher Scientific", "market": "US", "description": "과학장비·바이오 분석"},
+        {"ticker": "UNH", "name_ko": "유나이티드헬스", "name_en": "UnitedHealth Group", "market": "US", "description": "미국 최대 헬스케어 보험"},
+        {"ticker": "207940", "name_ko": "삼성바이오로직스", "name_en": "Samsung Biologics", "market": "KR", "description": "바이오 CMO/CDMO 세계 1위"},
+        {"ticker": "068270", "name_ko": "셀트리온", "name_en": "Celltrion", "market": "KR", "description": "바이오시밀러·항체 의약"},
+        {"ticker": "326030", "name_ko": "SK바이오팜", "name_en": "SK Biopharmaceuticals", "market": "KR", "description": "뇌질환 신약 개발"},
+        {"ticker": "145020", "name_ko": "휴젤", "name_en": "Hugel", "market": "KR", "description": "보툴리눔 톡신·미용바이오"},
+        {"ticker": "196170", "name_ko": "알테오젠", "name_en": "Alteogen", "market": "KR", "description": "피하주사 플랫폼 기술"}
+      ]
+    },
+    {
+      "id": "defense",
+      "name_ko": "방산/항공우주",
+      "name_en": "Defense & Aerospace",
+      "icon": "🛡️",
+      "stocks": [
+        {"ticker": "LMT", "name_ko": "록히드마틴", "name_en": "Lockheed Martin", "market": "US", "description": "F-35·미사일·우주 방산 1위"},
+        {"ticker": "RTX", "name_ko": "RTX(레이시온)", "name_en": "RTX Corporation", "market": "US", "description": "엔진·미사일·레이더 방산"},
+        {"ticker": "NOC", "name_ko": "노스롭그루먼", "name_en": "Northrop Grumman", "market": "US", "description": "B-21 폭격기·우주시스템"},
+        {"ticker": "GD", "name_ko": "제너럴 다이나믹스", "name_en": "General Dynamics", "market": "US", "description": "전차·잠수함·IT 방산"},
+        {"ticker": "BA", "name_ko": "보잉", "name_en": "Boeing", "market": "US", "description": "항공기·방산·우주"},
+        {"ticker": "LHX", "name_ko": "L3해리스", "name_en": "L3Harris Technologies", "market": "US", "description": "통신·전자전·우주 시스템"},
+        {"ticker": "HII", "name_ko": "헌팅턴잉걸스", "name_en": "Huntington Ingalls", "market": "US", "description": "미국 군함·항공모함 건조"},
+        {"ticker": "LDOS", "name_ko": "레이도스", "name_en": "Leidos Holdings", "market": "US", "description": "국방 IT·사이버·과학"},
+        {"ticker": "KTOS", "name_ko": "크라토스", "name_en": "Kratos Defense", "market": "US", "description": "군사용 드론·위성통신"},
+        {"ticker": "RKLB", "name_ko": "로켓랩", "name_en": "Rocket Lab", "market": "US", "description": "소형 위성 발사 로켓"},
+        {"ticker": "SPCE", "name_ko": "버진갤럭틱", "name_en": "Virgin Galactic", "market": "US", "description": "우주 관광 비행"},
+        {"ticker": "012450", "name_ko": "한화에어로스페이스", "name_en": "Hanwha Aerospace", "market": "KR", "description": "항공엔진·K9자주포·방산"},
+        {"ticker": "047810", "name_ko": "한국항공우주", "name_en": "Korea Aerospace Industries", "market": "KR", "description": "KF-21 전투기·항공기"},
+        {"ticker": "079550", "name_ko": "LIG넥스원", "name_en": "LIG Nex1", "market": "KR", "description": "미사일·유도무기·방산전자"},
+        {"ticker": "012450", "name_ko": "한화에어로스페이스", "name_en": "Hanwha Aerospace", "market": "KR", "description": "항공엔진·K9자주포"},
+        {"ticker": "064350", "name_ko": "현대로템", "name_en": "Hyundai Rotem", "market": "KR", "description": "K2전차·철도차량·방산"}
       ]
     }
   ]
