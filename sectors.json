@@ -1,0 +1,83 @@
+{
+  "sectors": [
+    {
+      "id": "semiconductor",
+      "name_ko": "반도체",
+      "name_en": "Semiconductor",
+      "icon": "💾",
+      "stocks": [
+        {"ticker": "NVDA", "name_ko": "엔비디아", "name_en": "NVIDIA", "market": "US", "description": "GPU 및 AI 반도체 선두주자"},
+        {"ticker": "TSM", "name_ko": "TSMC", "name_en": "TSMC", "market": "US", "description": "세계 최대 파운드리 기업"},
+        {"ticker": "AMD", "name_ko": "AMD", "name_en": "AMD", "market": "US", "description": "CPU/GPU 설계 기업"},
+        {"ticker": "INTC", "name_ko": "인텔", "name_en": "Intel", "market": "US", "description": "CPU 제조 및 파운드리"},
+        {"ticker": "005930", "name_ko": "삼성전자", "name_en": "Samsung Electronics", "market": "KR", "description": "메모리 반도체 세계 1위"},
+        {"ticker": "000660", "name_ko": "SK하이닉스", "name_en": "SK Hynix", "market": "KR", "description": "HBM 메모리 반도체 강자"}
+      ]
+    },
+    {
+      "id": "ai",
+      "name_ko": "인공지능(AI)",
+      "name_en": "Artificial Intelligence",
+      "icon": "🤖",
+      "stocks": [
+        {"ticker": "MSFT", "name_ko": "마이크로소프트", "name_en": "Microsoft", "market": "US", "description": "OpenAI 투자 및 Copilot AI"},
+        {"ticker": "GOOGL", "name_ko": "알파벳(구글)", "name_en": "Alphabet", "market": "US", "description": "Gemini AI 및 클라우드 AI"},
+        {"ticker": "META", "name_ko": "메타", "name_en": "Meta Platforms", "market": "US", "description": "LLaMA 오픈소스 AI"},
+        {"ticker": "PLTR", "name_ko": "팔란티어", "name_en": "Palantir", "market": "US", "description": "AI 기반 데이터 분석 플랫폼"},
+        {"ticker": "SNOW", "name_ko": "스노우플레이크", "name_en": "Snowflake", "market": "US", "description": "클라우드 데이터 플랫폼"}
+      ]
+    },
+    {
+      "id": "energy",
+      "name_ko": "에너지/신재생",
+      "name_en": "Energy & Renewables",
+      "icon": "⚡",
+      "stocks": [
+        {"ticker": "ENPH", "name_ko": "엔페이즈 에너지", "name_en": "Enphase Energy", "market": "US", "description": "태양광 마이크로인버터"},
+        {"ticker": "FSLR", "name_ko": "퍼스트솔라", "name_en": "First Solar", "market": "US", "description": "태양광 패널 제조"},
+        {"ticker": "NEE", "name_ko": "넥스트에라 에너지", "name_en": "NextEra Energy", "market": "US", "description": "미국 최대 신재생에너지 기업"},
+        {"ticker": "XOM", "name_ko": "엑슨모빌", "name_en": "ExxonMobil", "market": "US", "description": "글로벌 에너지 메이저"},
+        {"ticker": "034730", "name_ko": "SK", "name_en": "SK Inc", "market": "KR", "description": "에너지/배터리 지주회사"}
+      ]
+    },
+    {
+      "id": "robotics",
+      "name_ko": "로봇/자동화",
+      "name_en": "Robotics & Automation",
+      "icon": "🦾",
+      "stocks": [
+        {"ticker": "ISRG", "name_ko": "인튜이티브 서지컬", "name_en": "Intuitive Surgical", "market": "US", "description": "다빈치 수술로봇"},
+        {"ticker": "ROK", "name_ko": "록웰 오토메이션", "name_en": "Rockwell Automation", "market": "US", "description": "산업 자동화 솔루션"},
+        {"ticker": "TER", "name_ko": "테라다인", "name_en": "Teradyne", "market": "US", "description": "반도체 테스트 및 협동로봇"},
+        {"ticker": "ABBNY", "name_ko": "ABB", "name_en": "ABB Ltd", "market": "US", "description": "산업용 로봇 및 자동화"},
+        {"ticker": "454910", "name_ko": "레인보우로보틱스", "name_en": "Rainbow Robotics", "market": "KR", "description": "이족보행 로봇 개발 기업"}
+      ]
+    },
+    {
+      "id": "finance",
+      "name_ko": "금융",
+      "name_en": "Finance",
+      "icon": "🏦",
+      "stocks": [
+        {"ticker": "JPM", "name_ko": "JP모건 체이스", "name_en": "JPMorgan Chase", "market": "US", "description": "미국 최대 종합 금융그룹"},
+        {"ticker": "V", "name_ko": "비자", "name_en": "Visa", "market": "US", "description": "글로벌 결제 네트워크"},
+        {"ticker": "GS", "name_ko": "골드만삭스", "name_en": "Goldman Sachs", "market": "US", "description": "글로벌 투자은행"},
+        {"ticker": "105560", "name_ko": "KB금융", "name_en": "KB Financial Group", "market": "KR", "description": "한국 대표 금융지주"},
+        {"ticker": "055550", "name_ko": "신한지주", "name_en": "Shinhan Financial Group", "market": "KR", "description": "한국 종합 금융그룹"}
+      ]
+    },
+    {
+      "id": "battery",
+      "name_ko": "2차전지/배터리",
+      "name_en": "Battery & EV",
+      "icon": "🔋",
+      "stocks": [
+        {"ticker": "TSLA", "name_ko": "테슬라", "name_en": "Tesla", "market": "US", "description": "전기차 및 에너지 저장"},
+        {"ticker": "RIVN", "name_ko": "리비안", "name_en": "Rivian", "market": "US", "description": "전기 트럭/SUV 제조"},
+        {"ticker": "373220", "name_ko": "LG에너지솔루션", "name_en": "LG Energy Solution", "market": "KR", "description": "글로벌 배터리 제조 2위"},
+        {"ticker": "006400", "name_ko": "삼성SDI", "name_en": "Samsung SDI", "market": "KR", "description": "배터리 셀 및 소재"},
+        {"ticker": "051910", "name_ko": "LG화학", "name_en": "LG Chem", "market": "KR", "description": "배터리 소재 및 화학"}
+      ]
+    }
+  ]
+}
